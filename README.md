@@ -39,6 +39,11 @@ docker rm cadvisor
 Publish image:
 ```
 docker login
-docker tag spark-wordcount:1.0 strobebug/spark-wordcount:latest
-docker push strobebug/spark-wordcount:latest
+docker tag spark-wordcount:1.0 <user>/spark-wordcount:latest
+docker push <user>/spark-wordcount:latest
 ```
+
+## Additional Resources
+
+- [Spark image used](https://hub.docker.com/r/gettyimages/spark/)
+- [cAdvisor Repository](https://github.com/google/cadvisor)
