@@ -47,3 +47,4 @@ docker push <user>/spark-wordcount:latest
 
 - [Spark image used](https://hub.docker.com/r/gettyimages/spark/)
 - [cAdvisor Repository](https://github.com/google/cadvisor)
+- [Published DockerHub image](https://hub.docker.com/repository/docker/strobebug/spark-wordcount/general)
